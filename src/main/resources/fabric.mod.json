@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "infix",
+  "version": "${version}",
+  "name": "infix",
+  "description": "Provides some fixes to the infinity enchantment.",
+  "authors": [
+    "Mayaqq"
+  ],
+  "contact": {
+    "website": "https://maya.is-immensely.gay",
+    "repo": "https://github.com/MayaqqDev/infix"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/infix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.mayaqq.infix.Infix"
+    ]
+  },
+  "mixins": [
+    "infix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
